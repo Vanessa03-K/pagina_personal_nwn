@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <a href="https://tecnolochicas.mx" target="_blank">
+      <img id="logo" src="Imágenes/tecnolochicas-logo.png" alt="Logo Technolochicas">
+    </a>
+
+    <ul id="menu_horizontal">
+      <li>
+        <a>Inicio</a>
+      </li>
+      <li>
+        <a href="index.html">Razor</a>
+      </li>
+      <li>
+        <a href="contacto.html">Contacto</a>
+      </li>
+      <li>
+        <a href="https://tecnolochicas.mx" target="_blank">Tecnolochicas MX</a>
+      </li>
+    </ul>
+
+
+  </header>
+
+  <main id="contacto">
+    <h1 id="contactame" class="rubik-scribble-regular"> <img src="Imágenes/sticker_2.png" width="250">C O N T Á C T A M
+      E</h1>
+
+    <div class="formas">
+
+      <form class="datos">
+        <label for="fname">Nombre:</label><br><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Apellido:</label><br><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+
+      <form class="seleccion">
+        <p>Selecciona la opción que te representa:</p>
+        <input type="radio" id="one" name="fav_language" value="HTML">
+        <label for="one">Empresa</label><br>
+        <input type="radio" id="two" name="fav_language" value="CSS">
+        <label for="two">Estudiante</label><br>
+        <input type="radio" id="three" name="fav_language" value="CSS">
+        <label for="three">Dudas</label><br>
+        <input type="radio" id="four" name="fav_language" value="CSS">
+        <label for="four">Cotización</label><br>
+      </form>
+
+      <form class="correo">
+        <label for="email">Proporciona tu correo electrónico:</label>
+        <input for="email" name="email" type="email" id="email" name="email">
+      </form>
+
+      <form action="/action_page.php">
+        <p>Motivo:</p>
+        <textarea name="message" rows="10" cols="30"> Describe tu razón...
+              </textarea>
+        <br><br>
+        <input type="submit">
+      </form>
+
+    </div>
+
+    <a href="index.html">Volver a la página</a>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
